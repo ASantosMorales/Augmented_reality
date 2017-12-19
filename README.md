@@ -4,7 +4,7 @@ Final project to the Computational Vision (Spring 2017) course at TEC de Monterr
 -In this project I compile many topics of the Computational Vision course that I took.
 -The application was develop in Matlab.
 -There are four files:
-  * Solution RA (Main script of the AR application).
+  * Solution_RA.m (Main script of the AR application).
   * notsohappyface.jpg (AR proyected image).
   * pattern.png (The patter where the notsohappyface.jpg will be proyected).
   * cameraParams.mat (Camera parameters).
