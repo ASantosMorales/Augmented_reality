@@ -1,8 +1,9 @@
 %% Inicialization
 close all; clear all; clc;
 
-cd 'C:\Users\Usuario\Desktop\TEC de Monterrey\Semestre_2\Visión Computacional\Proyecto\Realidad aumentada'
+cd 'Folder where the cameraParams.mat, worldPoints.mat and notsohappyface.jpg where saved'
 
+% In my case my webcam were Logitech HD Webcam C525
 cam = webcam('Logitech HD Webcam C525');
 
 load('cameraParams.mat');
@@ -23,7 +24,7 @@ W = [0; 38; -38; 1];
 K = cameraParams.IntrinsicMatrix';
 C = zeros(480, 640);
 
-for i=1:500; %Número de frames que se desean correr
+for i=1:500; %Frames number (500 frames is about 1.5 minutes of video)
     Im = snapshot(cam);
     Im_bin = im2bw(rgb2gray(Im), 0.25);
     [imagePoints, boardSize] = detectCheckerboardPoints(rgb2gray(Im));
