@@ -3,7 +3,7 @@ close all; clear all; clc;
 
 cd 'Folder where the cameraParams.mat, worldPoints.mat and notsohappyface.jpg where saved'
 
-% In my case my webcam were Logitech HD Webcam C525
+% In my case I used an extra webcam called Logitech HD Webcam C525
 cam = webcam('Logitech HD Webcam C525');
 
 load('cameraParams.mat');
