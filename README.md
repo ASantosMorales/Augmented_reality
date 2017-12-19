@@ -9,3 +9,4 @@ Final project to the Computational Vision (Spring 2017) course at TEC de Monterr
   * pattern.png (The patter where the notsohappyface.jpg will be proyected).
   * cameraParams.mat (Camera parameters).
   * worldPoints.mat (World points where the the notsohappyface.jpg will be proyected).
+  * Best_outcome.mp4 (A little video that shows my outcome of the AR application).
